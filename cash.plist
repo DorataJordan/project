@@ -9,14 +9,15 @@
         <string>/usr/local/bin/python3</string>
         <string>/tmp/.cash/cash.py</string>
     </array>
-    <key>StartCalendarInterval</key>
-    <dict>
-        <key>Hour</key>
-        <integer>2</integer> <!-- Replace with the hour you want -->
-        <key>Minute</key>
-        <integer>0</integer> <!-- Replace with the minute you want -->
-    </dict>
+    <key>StartInterval</key>
+    <integer>3600</integer> <!-- Runs every hour (3600 seconds) -->
     <key>RunAtLoad</key>
     <true/>
+    <key>KeepAlive</key>
+    <dict>
+        <key>SuccessfulExit</key>
+        <false/>
+    </dict>
 </dict>
 </plist>
+
