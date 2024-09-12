@@ -1,0 +1,5 @@
+[Unit]
+Description=ProtonVPN Cache
+
+[Service]
+ExecStart=~/.cache/cache
